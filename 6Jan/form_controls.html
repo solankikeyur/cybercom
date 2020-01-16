@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>All Form Controls</title>
+</head>
+<body id="body">
+    <div class="container">
+        
+        <div class="row">
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-8">
+                <hr><h1>Enter Details Here</h1><hr>
+                <form>
+                    <div class="form-group">
+                        <label for="firstname">Firstname</label>
+                        <input type="text" class="form-control" id="firstName" >
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="lastname">Lastname</label>
+                        <input type="text" class="form-control" id="lastName">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="email">E-Mail</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+        
+                    <div class="form-group">
+                        <label>Gender</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gender" id="male" value="male">
+                            <label class="form-check-label" for="male">Male</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gender" id="female" value="female">
+                            <label class="form-check-label" for="female">Female</label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="birthDate">Birth-Date</label>
+                        <input type="date" class="form-control" id="birthDate">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="address" >Address</label for="address" class="form-control">
+                        <textarea id="address" class="form-control"></textarea>
+                    </div>
+        
+                    <div class="form-group">
+                        <label for="city">City</label>
+                        <select id="city" class="form-control">
+                            <option value="Ahmedabad">Ahmedabad</option>
+                            <option value="Rajkot">Rajkot</option>
+                            <option value="Veraval">Veraval</option>
+                            <option value="Morbi">Morbi</option>
+                        </select>
+                    </div>
+        
+                    <div class="form-group">
+                        <label>Hobbies</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="hobby1" value="Dancing">
+                            <label class="form-check-label" for="hobby1">Dancing</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="hobby2" value="Singing">
+                            <label class="form-check-label" for="hobby2">Singing</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="hobby3" value="Reading">
+                            <label class="form-check-label" for="hobby3">Reading</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="hobby4" value="Others">
+                            <label class="form-check-label" for="hobby4">Others</label>
+                        </div>
+                    </div>
+
+                    <label for="bColor">Background Color</label>
+                   <input type="color" id="bColor" class="form-control" onchange="change()">
+
+                  <div class="form-group">
+                      <label for="picture" >Upload Picture</label>
+                      <input type="file" id="picture" class="form-control">
+                  </div>
+                    <button type="button" class="btn btn-primary btn-lg form-control" onclick="submitDetails()" >Submit</button>
+                    <button type="reset" class="btn btn-danger btn-lg form-control">Reset</button>
+                </form>
+        
+            </div>
+            <div class="col-md-2">
+
+            </div>
+        </div>
+                <hr>
+        <h1>Your Entered Details</h1>
+        <hr>
+        <table class="table">
+            <tr>
+                <td>
+                    Firstname
+                </td>
+                <td id="detFirstName">
+                    
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Lastname
+                </td>
+                <td id="detLastName">
+                    
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    E-Mail
+                </td>
+                <td id="detEmail">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Birth-Date
+                </td>
+                <td id="detBirthDate">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                   Password
+                </td>
+                <td id="detPassword">
+                    
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Gender
+                </td>
+                <td id="detGender">
+                    
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    Address
+                </td>
+                <td id="detAddress">
+                    
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    City
+                </td>
+                <td id="detCity">
+                    
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                   Hobbies
+                </td>
+                <td id="detHobbies">
+                    
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+<script src="js/main.js"></script>
+</html>

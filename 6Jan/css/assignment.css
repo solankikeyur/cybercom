@@ -1,0 +1,30 @@
+#lForm{
+    background-color: #68bc4c;
+    padding: 45px;
+    padding-top: 170px;
+}
+#login{
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#btnLogin{
+    background-color: #68bc4c;
+    color: white;
+}
+
+#rForm{
+    background-color: #fab735;
+    padding: 45px;
+}
+#register{
+    background-color: white;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#btnRegister{
+    background-color: #1a535c;
+    color: white;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://use.fontawesome.com/e4310e1d68.js"></script>
+    <title>HTML Practice 6</title>
+    <style>
+        .contactForm{
+            width: 100%;
+            height: auto;
+        }
+        img{
+            height: 150px;
+            width: 100%;
+        }
+        #formRow{
+            padding: 25px;
+        }
+       
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2">
+
+            </div>
+            <div class="col-md-8">
+                <img src="css/contact.jpg">
+            </div>
+            <div class="col-md-2">
+
+            </div>
+        </div>
+
+
+        <div class="row" id="formRow">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="contactForm">
+                    <form>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text"><i class="fa fa-user"></i></span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Firstname">
+                          </div>
+                          <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text"><i class="fa fa-envelope"></i></span>
+                            </div>
+                            <input type="email" class="form-control" placeholder="Eg.example@gmail.com">
+                          </div>
+                          <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text"><i class="fa fa-mobile"></i></span>
+                            </div>
+                            <input type="number" class="form-control" placeholder="Eg.9428382445">
+                          </div>
+                          <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                              <span class="input-group-text"><i class="fa fa-comments"></i></span>
+                            </div>
+                            <textarea class="form-control" placeholder="Your Comments"></textarea>
+                        </div>
+
+                        <button class="btn btn-primary form-control" id="btnSend">Send now</button>
+            
+                    </form>
+                    </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+
+
+
+     
+    </div>
+</body>
+<script>
+  function btnSend(){
+    alert("Your Message has been submitted");
+  }
+  document.getElementById('btnSend').addEventListener('click',btnSend);
+  
+</script>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <style>
+        #btnSubmit{
+            margin-top: 20px;
+        }
+    </style>
+    <title>HTML Practice 7</title>
+</head>
+<body>
+    <div class="container">
+        <form action="success.html" method="POST" >
+            <fieldset>
+                <legend>Your Address</legend>
+                <label for="firstName">Firstname</label>
+                <input type="text" id="firstName" class="form-control" >
+                <label for="lastName">Lastname</label>
+                <input type="text" id="lastName" class="form-control" >
+                <label for="street">Street</label>
+                <input type="text" id="street" class="form-control" >
+                <label for="city">City</label>
+                <input type="text" id="city" class="form-control" >
+            </fieldset>
+            
+            <fieldset>
+                <legend>Additional Details</legend>
+                <label for="biography">Biography</label>
+                <textarea id="biography" rows="3" class="form-control"></textarea>
+                <label for="image">Image</label>
+                <input type="file" id="image" class="form-control">
+                <label for="ageGroup">Age-Group</label>
+                <select id="ageGroup" class="form-control">
+                    <option>0 - 12</option>
+                    <option>13 - 18</option>
+                    <option>19 - 35</option>
+                    <option>35+</option>
+                </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Interests</legend>
+                <label for="hobbies">Hobbies</label>
+                <select multiple class="form-control" id="hobbies">
+                    <option>Playing Soccer</option>
+                    <option>Dancing</option>
+                    <option>Gardening</option>
+                    <option>Watching Movies</option>
+                </select>
+                <label for="favCar">Favourite car ?</label>
+                <select id="favCar" class="form-control">
+                    <option>Volvo</option>
+                    <option>BMW</option>
+                    <option>Jeep</option>
+                    <option>Tata</option>
+                    <option>Tesla</option>
+                </select>
+                <label for="transport">Favourite public transport ?</label>
+                <select class="form-control" id="transport">
+                    <optgroup label="Ground">
+                        <option>Train</option>
+                        <option>Bus</option>
+                    </optgroup>
+                    <optgroup label="Water">
+                        <option>Ship</option>
+                    </optgroup>
+                    <optgroup label="Airways">
+                        <option>Aeroplane</option>
+                    </optgroup>
+                </select>
+            </fieldset>
+
+            <input type="submit" id="btnSubmit" name="Submit" class="btn btn-primary btn-lg form-control">
+            <input type="reset" id="btnReset" name="reset" class="btn btn-danger btn-lg form-control">
+        </form>
+    </div>
+</body>
+</html>

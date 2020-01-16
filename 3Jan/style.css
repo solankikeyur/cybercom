@@ -1,0 +1,21 @@
+img{
+    width: 215px;
+    height: 315px;
+    background-color: grey;
+}
+td{
+    padding: 8px;
+    
+}
+
+figcaption{
+    background-color: lightgray;
+    padding: 5px;
+    margin-top:-5px;
+}
+.text{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 20px;
+}

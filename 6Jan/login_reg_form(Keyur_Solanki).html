@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/assignment.css">
+    <title>Assignment</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-md-6" id="lForm">
+                <div id="login">
+                    <hr> <h2>Login Form</h2><hr>
+
+                <div class="form-group">
+                    <label for="lEmail">E-Mail</label>
+                    <input type="email" id="lEmail" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="lPass">Password</label>
+                    <input type="password" id="lPass" class="form-control">
+                </div>
+                <button type="button" class="form-control btn" onclick="btnLogin()" id="btnLogin">Login</button>
+                </div>
+               
+
+            </div>
+
+            <div class="col-md-6" id="rForm">
+
+
+                <div id="register">
+                    <hr><h2>Registration Form</h2><hr>
+
+                <div class="form-group">
+                    <label for="rFirstName">Firstname</label>
+                    <input type="text" id="rFirstName" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="rLastName">Lastname</label>
+                    <input type="text" id="rLastName" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="rEmail">E-Mail</label>
+                    <input type="email" id="rEmail" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="rPhoneNo">Phone Number</label>
+                    <input type="number" id="rPhoneNo" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="rPass">Password</label>
+                    <input type="password" id="rPass" class="form-control">
+                </div>
+               
+
+                <button type="button" class="form-control btn btn-danger" id="btnRegister" onclick="btnRegister()">Register</button>
+                </div>
+
+                
+
+
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="js/assignment.js">
+</script>
+</html>

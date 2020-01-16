@@ -1,0 +1,29 @@
+img{
+    width:215px;
+    height: 315px;
+    background-color: grey;
+}
+.box{
+    float: left;
+    margin: 10px;
+    border:solid 1px black;
+    padding: 10px;
+}
+.con{
+    position: relative;
+    left: 12%;
+    
+}
+figcaption{
+    background-color: lightgray;
+    padding: 8px;
+}
+.text{
+    text-align: center;
+    position: absolute;
+    top:60%;
+    padding-left: 65px;
+    padding-right: 65px;
+
+
+}

@@ -1,0 +1,12 @@
+.top{
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+}
+.card{
+    text-align: center!important;
+}
